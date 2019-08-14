@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Lumidatum_ProdRecWidget</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>alpha</stability>
     <license uri="https://opensource.org/licenses/mit-license.php">MITL</license>
     <channel>community</channel>
     <extends/>
     <summary>A widget that displays product recommendations from Lumidatum.</summary>
     <description>If you have a trained product recommendation model for Lumidatum, you can simply add this widget to your Magento site and display product recommendations for a given product being viewed, and additionally, user purchase history (if they're logged in). Simply specify your Lumidatum model Id and your Lumidatum user API token, the pages you would like the recommendation widget to appear on, and you're ready to go!</description>
-    <notes>PHP required version adjustment.</notes>
+    <notes>Fixing content packaging.</notes>
     <authors><author><name>Matt Lee</name><user>Lumidatum</user><email>hello@lumidatum.com</email></author></authors>
     <date>2016-05-13</date>
-    <time>19:35:01</time>
-    <contents><target name="mageetc"><dir><dir name="var"><dir name="www"><dir name="magento.loc"><dir name="public"><dir name="magento1"><dir name="app"><file name="etc" hash=""/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <time>20:59:49</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Lumidatum_ProdRecWidget.xml" hash="ac34b1247015d5bd3d6d6d1e71b33107"/></dir></target><target name="magecommunity"><dir name="Lumidatum"><dir name="ProdRecWidget"><dir name="Block"><file name="Recs.php" hash="cca4c23bf75d1cc3df6076975be907f1"/></dir><dir name="Helper"><file name="Data.php" hash="ecc9b701fe7375c9d827aea34ba20d91"/></dir><dir name="Model"><file name="Options.php" hash="2e927161b5a725a4d81e151f9133be0f"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9c81bca6786c91afe8f9abc346aa31c6"/><file name="config.xml" hash="50b1754f2763e2d269cc2005278ce9e3"/><file name="system.xml" hash="2ca24893f9e08a97c393cfcbbe9b9944"/><file name="widget.xml" hash="c22e31f52526ce118326000f985f1003"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>5.6.35</max></php></required></dependencies>
 </package>

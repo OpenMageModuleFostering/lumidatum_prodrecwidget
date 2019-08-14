@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<widgets>
+    <lumidatum_prodrecwidget_recs type="lumidatum_prodrecwidget/recs">
+        <name>Lumidatum Product Recommendation Widget</name>
+        <description type="desc">Display the top recommendations for a given product.</description>
+    </lumidatum_prodrecwidget_recs>
+</widgets>

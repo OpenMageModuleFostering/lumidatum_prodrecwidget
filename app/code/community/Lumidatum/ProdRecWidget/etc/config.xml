@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lumidatum_ProdRecWidget>
+            <version>1.0.0</version>
+        </Lumidatum_ProdRecWidget>
+    </modules>
+    <global>
+        <blocks>
+            <lumidatum_prodrecwidget>
+                <class>Lumidatum_ProdRecWidget_Block</class>
+            </lumidatum_prodrecwidget>
+        </blocks>
+        <helpers>
+            <lumidatum_prodrecwidget>
+                <class>Lumidatum_ProdRecWidget_Helper</class>
+            </lumidatum_prodrecwidget>
+        </helpers>
+    </global>
+    <default>
+        <lumidatum>
+            <prodrecwidget_group>
+                <lumidatum_prodreccount>3</lumidatum_prodreccount>
+                <lumidatum_prodrecimagesize>85</lumidatum_prodrecimagesize>
+            </prodrecwidget_group>
+        </lumidatum>
+    </default>
+</config>

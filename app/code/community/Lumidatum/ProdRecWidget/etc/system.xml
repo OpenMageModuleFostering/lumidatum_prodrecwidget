@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <lumidatum translate="label" module="lumidatum_prodrecwidget">
+            <label>Lumidatum Extensions</label>
+        </lumidatum>
+    </tabs>
+    <sections>
+        <lumidatum translate="label" module="lumidatum_prodrecwidget">
+            <label>Product Recommendation Widget Configuration</label>
+            <tab>lumidatum</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <prodrecwidget_group translate="label" module="lumidatum_prodrecwidget">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+                        <lumidatum_modelid translate="label">
+                            <label>Model Id: </label>
+                            <comment>The Id for your Lumidatum ALS model.</comment>
+                            <sort_order>1</sort_order>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </lumidatum_modelid>
+                        <lumidatum_apikey translate="label">
+                            <label>API Key: </label>
+                            <comment>The authorization token for your Lumidatum user.</comment>
+                            <sort_order>2</sort_order>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </lumidatum_apikey>
+                        <lumidatum_prodreccount translate="label">
+                            <label>Recommendation count: </label>
+                            <comment>The number of top product recommendations the API will return.</comment>
+                            <sort_order>3</sort_order>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </lumidatum_prodreccount>
+                        <lumidatum_prodrecimagesize translate="label">
+                            <label>Image size: </label>
+                            <comment>The side length in pixels of displayed product recommendation images (images are sized to fit in squares).</comment>
+                            <sort_order>4</sort_order>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </lumidatum_prodrecimagesize>
+                    </fields>
+                </prodrecwidget_group>
+            </groups>
+        </lumidatum>
+    </sections>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lumidatum_ProdRecWidget>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Lumidatum_ProdRecWidget>
+    </modules>
+</config>
