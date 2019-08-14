@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Lumidatum_ProdRecWidget</name>
+    <version>1.0.0</version>
+    <stability>alpha</stability>
+    <license uri="https://opensource.org/licenses/mit-license.php">MITL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A widget that displays product recommendations from Lumidatum.</summary>
+    <description>If you have a trained product recommendation model for Lumidatum, you can simply add this widget to your Magento site and display product recommendations for a given product being viewed, and additionally, user purchase history (if they're logged in). Simply specify your Lumidatum model Id and your Lumidatum user API token, the pages you would like the recommendation widget to appear on, and you're ready to go!</description>
+    <notes>Initial release of the Lumidatum Product Recommendation Widget.</notes>
+    <authors><author><name>Matt Lee</name><user>Lumidatum</user><email>hello@lumidatum.com</email></author></authors>
+    <date>2016-05-08</date>
+    <time>05:38:18</time>
+    <contents><target name="mageetc"><dir><dir name="var"><dir name="www"><dir name="magento.loc"><dir name="public"><dir name="magento1"><dir name="app"><file name="etc" hash=""/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>5.6.11</max></php></required></dependencies>
+</package>
