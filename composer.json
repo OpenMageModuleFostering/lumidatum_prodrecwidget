@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Lumidatum_ProdRecWidget",
+    "name": "OpenMageModuleFostering\/Lumidatum_ProdRecWidget",
     "type": "magento-module",
     "license": "MITL",
     "homepage": "",
     "description": "A widget that displays product recommendations from Lumidatum.",
     "authors": [
-    {
-        "name": "Matt Lee",
-        "email": "hello@lumidatum.com"
-    }
-],
+        {
+            "name": "Matt Lee",
+            "email": "hello@lumidatum.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
